@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --clr--gray: hsl(0, 0%, 70%);
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background-color: var(--clr--gray);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+main {
+    flex-grow: 1;
+    padding-block: 1.25rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--clr--gray);
+    padding: 0.75rem;
+}
